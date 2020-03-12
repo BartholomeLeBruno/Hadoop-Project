@@ -19,3 +19,6 @@ project/plugins/project/
 
 null/
 .metals
+.bloop
+project/project
+project/metals.sbt
