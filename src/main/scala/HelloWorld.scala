@@ -9,8 +9,22 @@ object HelloWorld {
   def main(args: Array[String]) {
 
     // initialise spark context
-    val df = SparkSession.builder.getOrCreate.read.json("/Users/bartholome/Documents/tweet.json")
-    df.show(3);
+    val df = SparkSession.builder.getOrCreate.read.json("/Users/bartholome/Documents/tweets.json")
+    //df.show(3)
+    val text = df.select(df.col("text"))
+    val hashtags = df.select(df.col("entities.hashtags.text"))
+    val coordinate = df.select(df.col("coordinate"))
+    hashtags.show()
+    //df.printSchema()
+    //text.show(3)
+    //text.foreach(println(_))
+    //hashtags.show()
+
+    case class Tweets(corps: String, coordinate: String, hashtags: List[String])
+
+    
+
+    println("************")
     val conf = new SparkConf().setAppName(HelloWorld.getClass.getName)
     val spark: SparkSession = SparkSession.builder.config(conf).getOrCreate()
 
