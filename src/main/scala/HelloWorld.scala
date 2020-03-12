@@ -10,7 +10,7 @@ object HelloWorld {
 
     // initialise spark context
     val df = SparkSession.builder.getOrCreate.read.json("/Users/bartholome/Documents/tweet.json")
-    println(df);
+    df.show(3);
     val conf = new SparkConf().setAppName(HelloWorld.getClass.getName)
     val spark: SparkSession = SparkSession.builder.config(conf).getOrCreate()
 
