@@ -3,6 +3,7 @@ import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.functions._
+import java.util.ArrayList
 
 // define main method (Spark entry point)
 object HelloWorld {
@@ -15,6 +16,9 @@ object HelloWorld {
     val hashtags = df.select(df.col("entities.hashtags.text"))
     val coordinate = df.select(df.col("coordinate"))
     hashtags.show()
+    val listHashTag = new ArrayList[String]
+
+    var states = scala.collection.mutable.Map[String, Int]()
     //df.printSchema()
     //text.show(3)
     //text.foreach(println(_))
@@ -22,7 +26,8 @@ object HelloWorld {
 
     case class Tweets(corps: String, coordinate: String, hashtags: List[String])
 
-    
+
+
 
     println("************")
     val conf = new SparkConf().setAppName(HelloWorld.getClass.getName)
