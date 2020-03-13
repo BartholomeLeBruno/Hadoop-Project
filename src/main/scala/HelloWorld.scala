@@ -13,18 +13,24 @@ object HelloWorld {
     val df = SparkSession.builder.getOrCreate.read.json("/Users/bartholome/Documents/tweets.json")
     //df.show(3)
     val text = df.select(df.col("text"))
-    val hashtags = df.select(df.col("entities.hashtags.text"))
-    val coordinate = df.select(df.col("coordinate"))
-    hashtags.show()
-    val listHashTag = new ArrayList[String]
+    val hashtags = df.select(df.col("entities.hashtags.text")).collect().toSeq
+    val test = df.agg(countDistinct("entities.hashtags.text"))
+    println("testtest")
 
-    var states = scala.collection.mutable.Map[String, Int]()
+    val resultat = hashtags.groupBy(identity).mapValues(_.size)
+    //hashtags.foreach(println(_))
+    println(resultat)
+
+    println("************")
+
+    //hashtags.foreach()
+
     //df.printSchema()
     //text.show(3)
     //text.foreach(println(_))
     //hashtags.show()
 
-    case class Tweets(corps: String, coordinate: String, hashtags: List[String])
+    //case class Tweets(corps: String, coordinate: String, hashtags: List[String])
 
 
 
