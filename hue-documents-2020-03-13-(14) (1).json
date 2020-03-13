@@ -1,0 +1,548 @@
+[
+{
+  "model": "desktop.document2",
+  "pk": 5,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "",
+    "description": "",
+    "uuid": "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+    "type": "directory",
+    "data": "{}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-11T03:54:02",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": null,
+    "dependencies": []
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 6,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": ".Trash",
+    "description": "",
+    "uuid": "21e03888-3223-4325-a71a-6e0233042238",
+    "type": "directory",
+    "data": "{}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-11T03:54:02",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": []
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 84,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "HapoopTestWorkflow",
+    "description": "",
+    "uuid": "19101f1b-75e9-2f18-d78b-380ca5945440",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\", \"size\": 12}], \"id\": \"7b90e0f2-4e28-1217-8c8a-d8d323235ec9\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"c838963d-c383-43ec-8e03-74472f4e5fbe\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\", \"size\": 12}], \"id\": \"7b90e0f2-4e28-1217-8c8a-d8d323235ec9\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"a4e3250a-5991-85b0-f160-4368de717fb0\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"efd1883e-5a4a-dc99-08cc-17ccf90eca4f\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"a4e3250a-5991-85b0-f160-4368de717fb0\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"efd1883e-5a4a-dc99-08cc-17ccf90eca4f\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"c838963d-c383-43ec-8e03-74472f4e5fbe\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"d96aade4-504f-b93c-5544-38ea57e28cb4\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584013432.64\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"HapoopTestWorkflow\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": true, \"movedNode\": null, \"linkMapping\": {\"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\"], \"17c9c895-5a16-7443-bb81-f34b30b21548\": []}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"L'action a \\u00e9chou\\u00e9, message d'erreur[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"spark-c46c\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [{\"value\": \"/user/hapoop/jars/helloworld.jar\"}], \"job_xml\": \"\", \"app_name\": \"HapoopSparkTest\", \"spark_opts\": \"\", \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"spark_arguments\": [], \"prepares\": [], \"mode\": \"cluster\", \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}], \"spark_master\": \"yarn\", \"credentials\": [], \"jars\": \"helloworld.jar\", \"class\": \"HelloWorld\", \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"spark-widget\", \"id\": \"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\", \"actionParameters\": []}], \"id\": 84, \"nodeNamesMapping\": {\"c46cce53-2a92-f2d6-9e63-e8aa2953ada7\": \"spark-c46c\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\", \"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\"}, \"uuid\": \"19101f1b-75e9-2f18-d78b-380ca5945440\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-12T08:18:12",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "3239893b-57f6-4a0f-91c6-70aad2af8256",
+        1,
+        true
+      ],
+      [
+        "0e239176-5f75-44d5-8ed7-2e9264fb1ad8",
+        1,
+        true
+      ],
+      [
+        "34096d46-6ad6-4471-bcd8-c95a41c9dae9",
+        1,
+        true
+      ],
+      [
+        "1e8529ad-7296-4547-b5b2-16ed47211466",
+        1,
+        true
+      ],
+      [
+        "0bbf05c9-6291-4bd7-a5f9-704876f7c519",
+        1,
+        true
+      ],
+      [
+        "cd70f506-2018-411e-a8f6-c7c5624018e8",
+        1,
+        true
+      ],
+      [
+        "9f4ef3f8-cc39-4e22-aad2-fbcf551beee6",
+        1,
+        true
+      ],
+      [
+        "25ab7adc-ebe8-4856-b495-dab0c3d9fa4e",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 86,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "TestPlanifier",
+    "description": "",
+    "uuid": "6af1de21-5c78-e3cd-f7e8-c0ead0ea24ec",
+    "type": "oozie-coordinator2",
+    "data": "{\"end_date\": {\"name\": \"end_date\", \"value\": \"2020-03-19T04:53\"}, \"variables\": [], \"isDirty\": true, \"showAdvancedFrequencyUI\": false, \"isManaged\": false, \"variablesUI\": [\"parameter\", \"input_path\", \"output_path\"], \"workflowParameters\": [], \"properties\": {\"job_xml\": \"\", \"timeout\": null, \"document\": null, \"end\": \"${end_date}\", \"description\": \"\", \"frequency_number\": 1, \"workflow\": \"19101f1b-75e9-2f18-d78b-380ca5945440\", \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584014011.51\", \"cron_frequency\": \"0 * * * *\", \"frequency_unit\": \"days\", \"schema_version\": \"uri:oozie:coordinator:0.2\", \"cron_advanced\": false, \"start\": \"${start_date}\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}, {\"name\": \"start_date\", \"value\": \"2020-03-12T04:53\"}, {\"name\": \"end_date\", \"value\": \"2020-03-19T04:53\"}], \"concurrency\": 0, \"timezone\": \"Africa/Ceuta\", \"credentials\": [], \"throttle\": 0, \"execution\": \"FIFO\", \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"6af1de21-5c78-e3cd-f7e8-c0ead0ea24ec\", \"name\": \"TestPlanifier\", \"id\": 86, \"start_date\": {\"name\": \"start_date\", \"value\": \"2020-03-12T04:53\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-12T07:06:38",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": true,
+    "parent_directory": [
+      "21e03888-3223-4325-a71a-6e0233042238",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "19101f1b-75e9-2f18-d78b-380ca5945440",
+        1,
+        false
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 93,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Planifier Test",
+    "description": "",
+    "uuid": "881a2351-ea08-90c5-557b-b2230046ea2d",
+    "type": "oozie-coordinator2",
+    "data": "{\"properties\": {\"job_xml\": \"\", \"timeout\": null, \"document\": null, \"end\": \"${end_date}\", \"description\": \"\", \"frequency_number\": 1, \"workflow\": \"19101f1b-75e9-2f18-d78b-380ca5945440\", \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584021902.27\", \"cron_frequency\": \"0 * * * *\", \"frequency_unit\": \"days\", \"schema_version\": \"uri:oozie:coordinator:0.2\", \"cron_advanced\": false, \"start\": \"${start_date}\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}, {\"name\": \"start_date\", \"value\": \"2020-03-12T07:05\"}, {\"name\": \"end_date\", \"value\": \"2020-03-19T07:05\"}], \"concurrency\": 0, \"timezone\": \"Africa/Ceuta\", \"credentials\": [], \"throttle\": 0, \"execution\": \"FIFO\", \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"name\": \"Planifier Test\", \"end_date\": {\"name\": \"end_date\", \"value\": \"2020-03-19T07:05\"}, \"variables\": [], \"start_date\": {\"name\": \"start_date\", \"value\": \"2020-03-12T07:05\"}, \"showAdvancedFrequencyUI\": false, \"isManaged\": false, \"variablesUI\": [\"parameter\", \"input_path\", \"output_path\"], \"workflowParameters\": [], \"isDirty\": true, \"id\": null, \"uuid\": \"881a2351-ea08-90c5-557b-b2230046ea2d\"}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-12T07:05:37",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "19101f1b-75e9-2f18-d78b-380ca5945440",
+        1,
+        false
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 164,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "TopHashtagWorkflow",
+    "description": "",
+    "uuid": "86dfb4fc-01e7-4e9e-1831-0b09a0069629",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": [{\"oozieRows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\", \"size\": 12}], \"id\": \"0ee1e626-fd3a-5651-dea8-f0a64c15fab8\", \"columns\": []}], \"rows\": [{\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"8a74c4fe-c3ef-409d-f86a-185bf6b0b5e6\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Spark\", \"widgetType\": \"spark-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\", \"size\": 12}], \"id\": \"0ee1e626-fd3a-5651-dea8-f0a64c15fab8\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"ae37e9c2-6203-b644-2771-70f30c4f8ddc\", \"columns\": []}, {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"96e72ea4-d24d-b36f-6562-72466c17ea6b\", \"columns\": []}], \"oozieEndRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"End\", \"widgetType\": \"end-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"size\": 12}], \"id\": \"ae37e9c2-6203-b644-2771-70f30c4f8ddc\", \"columns\": []}, \"oozieKillRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Kill\", \"widgetType\": \"kill-widget\", \"oozieMovable\": true, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"size\": 12}], \"id\": \"96e72ea4-d24d-b36f-6562-72466c17ea6b\", \"columns\": []}, \"enableOozieDropOnAfter\": true, \"oozieStartRow\": {\"enableOozieDropOnBefore\": true, \"enableOozieDropOnSide\": true, \"enableOozieDrop\": false, \"widgets\": [{\"status\": \"\", \"logsURL\": \"\", \"name\": \"Start\", \"widgetType\": \"start-widget\", \"oozieMovable\": false, \"ooziePropertiesExpanded\": false, \"gridsterHeight\": 0, \"externalJobId\": \"\", \"isEditing\": false, \"properties\": {}, \"externalId\": \"\", \"isLoading\": false, \"offset\": 0, \"actionURL\": \"\", \"progress\": 0, \"externalIdUrl\": \"\", \"klass\": \"card card-widget span12\", \"oozieExpanded\": false, \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"size\": 12}], \"id\": \"8a74c4fe-c3ef-409d-f86a-185bf6b0b5e6\", \"columns\": []}, \"klass\": \"card card-home card-column span12\", \"enableOozieDropOnBefore\": true, \"drops\": [\"temp\"], \"id\": \"a1c55edc-e417-6f7c-d46c-d5ce0c16e47d\", \"size\": 12}], \"workflow\": {\"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [{\"name\": \"oozie.use.system.libpath\", \"value\": true}], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584114135.82\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"show_arrows\": true, \"wf1_id\": null, \"properties\": []}, \"name\": \"TopHashtagWorkflow\", \"hasKillNode\": true, \"versions\": [\"uri:oozie:workflow:0.4\", \"uri:oozie:workflow:0.4.5\", \"uri:oozie:workflow:0.5\"], \"isDirty\": true, \"movedNode\": null, \"linkMapping\": {\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": [], \"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\": [\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"], \"3f107997-04cc-8733-60a9-a4bb62cebffc\": [\"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\"], \"17c9c895-5a16-7443-bb81-f34b30b21548\": []}, \"nodeIds\": [\"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\"], \"nodes\": [{\"name\": \"Start\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\"}], \"actionParametersFetched\": false, \"properties\": {}, \"associatedDocumentUuid\": null, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"name\": \"End\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"content_type\": \"text/plain\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"name\": \"Kill\", \"associatedDocumentLoading\": true, \"children\": [], \"actionParametersFetched\": false, \"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"message\": \"L'action a \\u00e9chou\\u00e9, message d'erreur[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"associatedDocumentUuid\": null, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"name\": \"spark-a3ef\", \"associatedDocumentLoading\": true, \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"properties\": {\"files\": [{\"value\": \"/user/hapoop/jars/hello-world_2.12-1.0.jar\"}], \"job_xml\": \"\", \"app_name\": \"TopTweet\", \"spark_opts\": \"\", \"retry_interval\": [], \"class\": \"HelloWorld\", \"retry_max\": [], \"job_properties\": [], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"spark_master\": \"yarn\", \"mode\": \"client\", \"prepares\": [], \"credentials\": [], \"jars\": \"hello-world_2.12-1.0.jar\", \"spark_arguments\": [], \"archives\": []}, \"associatedDocumentUuid\": null, \"type\": \"spark-widget\", \"id\": \"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\", \"actionParameters\": []}], \"id\": 164, \"nodeNamesMapping\": {\"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\": \"End\", \"a3efccc0-5ef6-c3ed-c988-c4cfdfe8e2ce\": \"spark-a3ef\", \"3f107997-04cc-8733-60a9-a4bb62cebffc\": \"Start\", \"17c9c895-5a16-7443-bb81-f34b30b21548\": \"Kill\"}, \"uuid\": \"86dfb4fc-01e7-4e9e-1831-0b09a0069629\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:37:59",
+    "version": 1,
+    "is_history": false,
+    "is_managed": false,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "52d291c4-3349-4543-a0d5-719214de819a",
+        1,
+        true
+      ],
+      [
+        "945f2807-d177-4a08-bc74-7c452ea2e9db",
+        1,
+        true
+      ],
+      [
+        "e9461c73-002a-47c3-983c-6bd52a7c52ec",
+        1,
+        true
+      ],
+      [
+        "28da2002-d42b-4a42-a109-471cdfac687d",
+        1,
+        true
+      ],
+      [
+        "cbd239de-f46c-4520-9b38-46e22405eec4",
+        1,
+        true
+      ],
+      [
+        "90b326f1-31fe-4aaf-854e-847a55c5d7ca",
+        1,
+        true
+      ],
+      [
+        "8d1682bc-fe83-4f39-bf3c-f92356082839",
+        1,
+        true
+      ],
+      [
+        "2337bf16-d924-4b69-b96b-6a22e78c5fab",
+        1,
+        true
+      ],
+      [
+        "e9c7e26a-3504-4ccb-9f1b-fa52942517d1",
+        1,
+        true
+      ],
+      [
+        "868f47d0-a609-489e-b7bd-a07c3485c9a3",
+        1,
+        true
+      ],
+      [
+        "f5c4db4c-ddde-4f3f-8c51-b4c2a2e9cc0a",
+        1,
+        true
+      ],
+      [
+        "d5d631a1-7448-4a6e-8bbf-e5f2454f90be",
+        1,
+        true
+      ],
+      [
+        "f8e58845-372b-4144-8ed8-4fe5d3e92ebf",
+        1,
+        true
+      ],
+      [
+        "2d0f056f-5c74-4350-b0a4-97534810215f",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 217,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "f96f6b4b-debb-4862-a8cc-2451120eca03",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"3bb0503b-9300-4dfe-8388-5c50ead08180\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/jars\"}, {\"value\": \"/user/hapoop/multiline-zipcode.json\"}, {\"value\": \"/user/hapoop/text.txt\"}, {\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hapoop/tweets\"}, {\"value\": \"/user/hapoop/tweets_dir\"}, {\"value\": \"/user/hapoop/zipcodes.json\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=jars,multiline-zipcode.json,text.txt,toptweets,tweets,tweets_dir,zipcodes.json\"}, {\"value\": \"-n=hapoop.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-3bb0\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"3bb0503b-9300-4dfe-8388-5c50ead08180\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121426.8\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"f96f6b4b-debb-4862-a8cc-2451120eca03\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:43:46",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "5ff16ac1-0fbb-4d59-8438-714cb682322a",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 220,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "6f6c5100-5fba-4d20-9710-010c3fd1403c",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"72157696-f989-43b6-af13-2b48d3939898\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/jars\"}, {\"value\": \"/user/hapoop/multiline-zipcode.json\"}, {\"value\": \"/user/hapoop/text.txt\"}, {\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hapoop/tweets\"}, {\"value\": \"/user/hapoop/tweets_dir\"}, {\"value\": \"/user/hapoop/zipcodes.json\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=jars,multiline-zipcode.json,text.txt,toptweets,tweets,tweets_dir,zipcodes.json\"}, {\"value\": \"-n=hapoop.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-7215\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"72157696-f989-43b6-af13-2b48d3939898\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121474.27\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"6f6c5100-5fba-4d20-9710-010c3fd1403c\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:44:34",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "6773a710-c01c-4928-bd8c-ae504d3fff02",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 223,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "422158c4-0943-4522-a422-b10e0553b066",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"52d0b604-c8c4-4d2f-951e-96f52a247662\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/jars\"}, {\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hapoop/tweets_dir\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=jars,toptweets,tweets_dir\"}, {\"value\": \"-n=hapoop.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-52d0\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"52d0b604-c8c4-4d2f-951e-96f52a247662\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121563.73\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"422158c4-0943-4522-a422-b10e0553b066\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:46:03",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "67d5e717-243d-4be9-b504-43a1139c0eee",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 226,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "ffcdee5f-7a46-4d48-8f17-8cd772626688",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"87b9a234-ec96-478f-bbbb-6bb4f37e08e3\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/.Trash\"}, {\"value\": \"/user/hapoop/.sparkStaging\"}, {\"value\": \"/user/hapoop/Florian\"}, {\"value\": \"/user/hapoop/jars\"}, {\"value\": \"/user/hapoop/multiline-zipcode.json\"}, {\"value\": \"/user/hapoop/oozie-oozi\"}, {\"value\": \"/user/hapoop/text.txt\"}, {\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hapoop/tweets\"}, {\"value\": \"/user/hapoop/tweets_dir\"}, {\"value\": \"/user/hapoop/zipcodes.json\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=.Trash,.sparkStaging,Florian,jars,multiline-zipcode.json,oozie-oozi,text.txt,toptweets,tweets,tweets_dir,zipcodes.json\"}, {\"value\": \"-n=hapoop.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-87b9\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"87b9a234-ec96-478f-bbbb-6bb4f37e08e3\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121566.65\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"ffcdee5f-7a46-4d48-8f17-8cd772626688\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:46:06",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "7c889992-f8c9-4bd9-8457-62c467e1c850",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 229,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "efbdbfcb-94ea-4a83-9b9c-4f2dfc3d2646",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"59dca55c-cbeb-429b-b4f4-7b3561234be0\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/.Trash\"}, {\"value\": \"/user/hapoop/.sparkStaging\"}, {\"value\": \"/user/hapoop/Florian\"}, {\"value\": \"/user/hapoop/jars\"}, {\"value\": \"/user/hapoop/multiline-zipcode.json\"}, {\"value\": \"/user/hapoop/oozie-oozi\"}, {\"value\": \"/user/hapoop/text.txt\"}, {\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hapoop/tweets\"}, {\"value\": \"/user/hapoop/tweets_dir\"}, {\"value\": \"/user/hapoop/zipcodes.json\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=.Trash,.sparkStaging,Florian,jars,multiline-zipcode.json,oozie-oozi,text.txt,toptweets,tweets,tweets_dir,zipcodes.json\"}, {\"value\": \"-n=hapoop.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-59dc\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"59dca55c-cbeb-429b-b4f4-7b3561234be0\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121635.55\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"efbdbfcb-94ea-4a83-9b9c-4f2dfc3d2646\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:47:15",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "0fb78d5e-5819-46ae-8879-906c5d70bb63",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 232,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "dc58609a-87f7-4767-b679-0a2d541932bd",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"e4b4985e-f158-47eb-8dff-197f729729ef\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/jars\"}, {\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hapoop/tweets_dir\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=jars,toptweets,tweets_dir\"}, {\"value\": \"-n=hapoop.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-e4b4\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"e4b4985e-f158-47eb-8dff-197f729729ef\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121708.43\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"dc58609a-87f7-4767-b679-0a2d541932bd\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:48:28",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "ed369cf8-f32e-4c74-8658-adba9695511c",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 235,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "6908a40c-ce6a-4d52-a443-1581f160daa6",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"273011f4-e3de-49db-86e4-3b1ecbafa2c4\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=toptweets\"}, {\"value\": \"-n=toptweets.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-2730\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"273011f4-e3de-49db-86e4-3b1ecbafa2c4\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121772.99\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"6908a40c-ce6a-4d52-a443-1581f160daa6\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:49:33",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "00628159-44cd-44cd-96de-4ee196e4d61a",
+        1,
+        true
+      ]
+    ]
+  }
+},
+{
+  "model": "desktop.document2",
+  "pk": 238,
+  "fields": {
+    "owner": [
+      "hapoop"
+    ],
+    "name": "Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip",
+    "description": "",
+    "uuid": "4b9ced83-913e-4b10-8cc3-04f12c3e3a22",
+    "type": "oozie-workflow2",
+    "data": "{\"layout\": {}, \"workflow\": {\"nodes\": [{\"properties\": {}, \"name\": \"Start\", \"children\": [{\"to\": \"f27b1a99-f02a-41c4-962b-3c019a1daa0a\"}], \"actionParametersFetched\": false, \"type\": \"start-widget\", \"id\": \"3f107997-04cc-8733-60a9-a4bb62cebffc\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Workflow ${wf:id()} finished\", \"subject\": \"\"}, \"name\": \"End\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"end-widget\", \"id\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\", \"actionParameters\": []}, {\"properties\": {\"body\": \"\", \"cc\": \"\", \"to\": \"\", \"enableMail\": false, \"attachment\": \"\", \"message\": \"Action failed, error message[${wf:errorMessage(wf:lastErrorNode())}]\", \"subject\": \"\"}, \"name\": \"Kill\", \"children\": [], \"actionParametersFetched\": false, \"type\": \"kill-widget\", \"id\": \"17c9c895-5a16-7443-bb81-f34b30b21548\", \"actionParameters\": []}, {\"properties\": {\"files\": [{\"value\": \"/user/hapoop/toptweets\"}, {\"value\": \"/user/hue/common/compress_files_in_hdfs.sh\"}], \"command_path\": \"\", \"java_opts\": [], \"retry_max\": [], \"retry_interval\": [], \"job_properties\": [], \"capture_output\": true, \"shell_command\": \"compress_files_in_hdfs.sh\", \"arguments\": [{\"value\": \"-u=/user/hapoop\"}, {\"value\": \"-f=toptweets\"}, {\"value\": \"-n=toptweets.zip\"}], \"prepares\": [], \"credentials\": [], \"env_var\": [{\"value\": \"HADOOP_USER_NAME=${wf:user()}\"}], \"sla\": [{\"value\": false, \"key\": \"enabled\"}, {\"value\": \"${nominal_time}\", \"key\": \"nominal-time\"}, {\"value\": \"\", \"key\": \"should-start\"}, {\"value\": \"${30 * MINUTES}\", \"key\": \"should-end\"}, {\"value\": \"\", \"key\": \"max-duration\"}, {\"value\": \"\", \"key\": \"alert-events\"}, {\"value\": \"\", \"key\": \"alert-contact\"}, {\"value\": \"\", \"key\": \"notification-msg\"}, {\"value\": \"\", \"key\": \"upstream-apps\"}], \"archives\": []}, \"name\": \"shell-f27b\", \"children\": [{\"to\": \"33430f0f-ebfa-c3ec-f237-3e77efa03d0a\"}, {\"error\": \"17c9c895-5a16-7443-bb81-f34b30b21548\"}], \"actionParametersFetched\": false, \"type\": \"shell-document-widget\", \"id\": \"f27b1a99-f02a-41c4-962b-3c019a1daa0a\", \"actionParameters\": []}], \"properties\": {\"job_xml\": \"\", \"description\": \"\", \"parameters\": [], \"sla_enabled\": false, \"deployment_dir\": \"/user/hue/oozie/workspaces/hue-oozie-1584121794.45\", \"schema_version\": \"uri:oozie:workflow:0.5\", \"properties\": [], \"show_arrows\": true, \"wf1_id\": null, \"sla\": [{\"key\": \"enabled\", \"value\": false}, {\"key\": \"nominal-time\", \"value\": \"${nominal_time}\"}, {\"key\": \"should-start\", \"value\": \"\"}, {\"key\": \"should-end\", \"value\": \"${30 * MINUTES}\"}, {\"key\": \"max-duration\", \"value\": \"\"}, {\"key\": \"alert-events\", \"value\": \"\"}, {\"key\": \"alert-contact\", \"value\": \"\"}, {\"key\": \"notification-msg\", \"value\": \"\"}, {\"key\": \"upstream-apps\", \"value\": \"\"}]}, \"uuid\": \"4b9ced83-913e-4b10-8cc3-04f12c3e3a22\", \"name\": \"Batch pour Compression HDFS sur /user/hapoop/hue_compressed.zip\"}}",
+    "extra": "",
+    "search": null,
+    "last_modified": "2020-03-13T10:49:54",
+    "version": 1,
+    "is_history": false,
+    "is_managed": true,
+    "is_trashed": false,
+    "parent_directory": [
+      "3139fdd0-4737-4193-8f28-b5d5cef697b3",
+      1,
+      false
+    ],
+    "dependencies": [
+      [
+        "40c2ab35-0d0f-4521-9b97-7c43294db4b9",
+        1,
+        true
+      ]
+    ]
+  }
+}
+]
